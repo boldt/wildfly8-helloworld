@@ -19,18 +19,18 @@ mv *.war wildfly-8.0.0.Final/standalone/deployments/
 
 Open: 
 
-  http://localhost:8080/hello/world 
+http://localhost:8080/hello/world 
 
 Yields to the exception:
 
-  `javax.servlet.ServletException: UT010013: Could not instantiate de.dennis_boldt.HelloServlet`
+`javax.servlet.ServletException: UT010013: Could not instantiate de.dennis_boldt.HelloServlet`
 
 Redeploy: 
 
-  `touch wildfly-8.0.0.Final/standalone/deployments/hello.war.dodeploy`
+`touch wildfly-8.0.0.Final/standalone/deployments/hello.war.dodeploy`
 
 Open:
 
-  http://localhost:8080/hello/world 
+http://localhost:8080/hello/world 
 
 works well (with a warning).
