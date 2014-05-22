@@ -1,4 +1,4 @@
-package de.uni_luebeck.itm.sva;
+package de.dennis_boldt;
 
 import javax.naming.NamingException;
 
