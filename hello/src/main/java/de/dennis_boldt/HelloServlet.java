@@ -17,7 +17,7 @@ public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@EJB
-	private Hello list;
+	private Hello hello;
 
 	public HelloServlet() {
 		super();
@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
-		writer.println(list.helloWorld());
+		writer.println(hello.helloWorld());
 		writer.close();
 	}
 
