@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.uni_lubeck.itm.sva</groupId>
+	<groupId>de.dennis-boldt</groupId>
 	<artifactId>hello-remote</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
@@ -14,7 +14,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>de.uni_luebeck.itm.sva</groupId>
+			<groupId>de.dennis-boldt</groupId>
 			<artifactId>hello-commons</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
