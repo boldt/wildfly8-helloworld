@@ -18,7 +18,7 @@ public class HelloJndi {
 		jndiProperties.put(Context.SECURITY_PRINCIPAL, "test");
 		jndiProperties.put(Context.SECURITY_CREDENTIALS, "test");
 		jndiProperties.put("jboss.naming.client.ejb.context", true);
-		jndiProperties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
+		//jndiProperties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
 		context = new InitialContext(jndiProperties);
 	}
 	
