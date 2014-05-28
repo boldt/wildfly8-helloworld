@@ -13,10 +13,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.wildfly</groupId>
-			<artifactId>wildfly-ejb-client-bom</artifactId>
-			<version>8.0.0.Final</version>
-			<type>pom</type>
+			<groupId>de.dennis_boldt</groupId>
+			<artifactId>jboss-client</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>

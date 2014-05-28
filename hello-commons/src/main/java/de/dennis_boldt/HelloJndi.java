@@ -13,7 +13,7 @@ public class HelloJndi {
 	
 	public static void getJndi() throws NamingException {
 		final Properties jndiProperties = new Properties();
-		jndiProperties.put(Context.INITIAL_CONTEXT_FACTORY, org.jboss.naming.remote.client.InitialContextFactory.class.getName());
+		jndiProperties.put(Context.INITIAL_CONTEXT_FACTORY, "org.jboss.naming.remote.client.InitialContextFactory");
 		jndiProperties.put(Context.PROVIDER_URL, "http-remoting://localhost:8080");
 		jndiProperties.put(Context.SECURITY_PRINCIPAL, "test");
 		jndiProperties.put(Context.SECURITY_CREDENTIALS, "test");
